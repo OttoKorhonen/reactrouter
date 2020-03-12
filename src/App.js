@@ -3,13 +3,17 @@ import"bootstrap/dist/css/bootstrap.min.css";
 import{ BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import Contact from './Contact';
 import Home from './Home';
+import './App.css'
 
 function App() {
+
+  
+
   return (
     <div className="App">
       <BrowserRouter>
       <div>
-       
+     
         <Link to="/">Home</Link>{''}
         <Link to="/contact">Contact</Link>{''}
         <Link to="/links">Links</Link>{''}
